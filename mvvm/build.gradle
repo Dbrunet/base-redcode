@@ -44,7 +44,7 @@ dependencies {
     implementation deps.kotlin.stdlib
 
     api 'androidx.lifecycle:lifecycle-extensions:2.2.0'
-    api 'com.github.pedrofsn:EasyRecyclerview:1.0.1'
+    api 'com.github.pedrofsn:EasyRecyclerview:1.0.2'
 
     api project(':base')
 }
