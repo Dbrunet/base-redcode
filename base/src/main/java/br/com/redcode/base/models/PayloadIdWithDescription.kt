@@ -1,5 +1,6 @@
 package br.com.redcode.base.models
 
+import br.com.redcode.base.interfaces.Payload
 import br.com.redcode.spinnable.library.model.Spinnable
 import extract
 
@@ -14,5 +15,4 @@ data class PayloadIdWithDescription(
         description = extract safe descricao,
         selected = extract safe selecionado
     )
-
 }
