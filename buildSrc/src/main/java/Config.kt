@@ -1,30 +1,30 @@
 object Config {
     // Android config
     const val androidMinSdk = 16
-    const val androidTargetSdk = 28
-    const val androidCompileSdk = 28
+    const val androidTargetSdk = 29
+    const val androidCompileSdk = 29
 }
 
 object Versions {
     // Kotlin
-    const val kotlin = "1.3.50"
+    const val kotlin = "1.4.20"
 
     // Plugins
     const val sonarqubePlugin = "2.8"
     const val androidMavenPlugin = "2.1"
-    const val androidToolsPlugin = "3.5.1"
+    const val androidToolsPlugin = "4.1.1"
     const val versionsPlugin = "0.25.0"
 
     // Libs
-    const val androidxLifecycle = "2.0.0"
-    const val material = "1.0.0"
-    const val appCompat = "1.0.2"
+    const val androidxLifecycle = "2.2.0"
+    const val material = "1.2.1"
+    const val appCompat = "1.2.0"
 
-    const val easyRetrofit = "1.1.0.0"
-    const val easyRecyclerview = "1.0.1"
+    const val easyRetrofit = "1.3.0"
+    const val easyRecyclerview = "1.0.2"
     const val spinnableLib = "1.1.0.2"
     const val proWebview = "2.2.1"
-    const val coroutinesAndroid = "1.3.0"
+    const val coroutinesAndroid = "1.4.2"
     const val timber = "4.7.1"
 }
 
